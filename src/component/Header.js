@@ -30,6 +30,5 @@ return (
 	</>
 );
 };
-
 export default Navb;
 

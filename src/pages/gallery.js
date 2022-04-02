@@ -1,12 +1,8 @@
 import React from 'react';
 import '../style.css';
 import Card from '../component/Cards';
-
 class gallery extends React.Component {
-    
 	render() {
-
-
         const data=[
             {
                 name: 'Austrian Alps',
@@ -33,13 +29,9 @@ class gallery extends React.Component {
                 image: require('../img/e.jpg'),
             },
         ];
-
-
-        return ( 
-        
+        return (     
 		<Card data={data}/>
     );
 }
 }
-
 export default gallery;

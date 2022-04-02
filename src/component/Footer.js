@@ -18,7 +18,6 @@ var style = {
   height: '60px',
   width: '100%',
 }
-
 class Footer extends React.Component {
     render(){
     return (
@@ -31,5 +30,4 @@ class Footer extends React.Component {
     )
     }
 }
-
 export default Footer

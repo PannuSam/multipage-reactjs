@@ -13,6 +13,5 @@ function About (){
          class="btn btn-outline-dark btn-lg">More Info</button>
       </div>
 }
- 
 export default About;
 

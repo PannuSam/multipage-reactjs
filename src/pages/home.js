@@ -6,5 +6,4 @@ function Home (){
         <h2>Welcome to My Adventures!</h2>
     </div>
 }
- 
 export default Home;
