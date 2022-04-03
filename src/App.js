@@ -7,6 +7,7 @@ import About from './pages/about';
 import Gallery from './pages/gallery';
 
 function App() {
+	
 return (
 	<Router>
 	<Nav/>

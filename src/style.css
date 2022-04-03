@@ -1,8 +1,10 @@
 
 .navItem {
     color: rgb(171, 224, 245);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 3em;
   }
-
+  
   .bgimg {
     width: 100%;
     height: 100vh;
@@ -16,4 +18,13 @@
   color: rgb(202, 245, 248);
   text-align: center;
   padding-top: 5em;
+}
+
+.gallery{
+  color: rgb(21, 55, 83);
+  text-align: center;
+  margin-top: 2em;
+}
+.navBar{
+  margin-left:30px;
 }

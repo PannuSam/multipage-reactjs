@@ -10,19 +10,19 @@ const Navb = () => {
 return (
 	<>
 	
-	<Navbar  collapseOnSelect expand="lg" variant="pills" bg="dark" className="navBar">
-	<Navbar.Brand href="#home" > <span className="navItem">My Adventures</span></Navbar.Brand>
+	<Navbar  collapseOnSelect expand="lg" bg="dark" variant="dark">
+	<Navbar.Brand href="#home" > <span className="navItem" >My Adventures</span></Navbar.Brand>
 		<Navbar.Toggle aria-controls="basic-navbar-nav" data-bs-target="#navbarScroll" />
 		<Navbar.Collapse  id="basic-navbar-nav"> 
 		<Nav>  
 		<Nav.Link as={Link} to="/">
-		<span className="navItem">Home</span>
+		<span className="navItem">HOME</span>
 		</Nav.Link>
 		<Nav.Link as={Link} to="/gallery" >
-		<span className="navItem">Gallery</span>
+		<span className="navItem">GALLERY</span>
 		</Nav.Link>
 		<Nav.Link as={Link} to="/about" >
-		<span className="navItem">About</span>
+		<span className="navItem">ABOUT</span>
 		</Nav.Link>
 		</Nav>
 		</Navbar.Collapse>
