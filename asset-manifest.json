@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/multipage-reactjs/static/css/main.299ee67a.css",
+    "main.js": "/multipage-reactjs/static/js/main.0a995b08.js",
+    "static/media/backgd.jpg": "/multipage-reactjs/static/media/backgd.1e81b229252e92e99aab.jpg",
+    "index.html": "/multipage-reactjs/index.html",
+    "main.299ee67a.css.map": "/multipage-reactjs/static/css/main.299ee67a.css.map",
+    "main.0a995b08.js.map": "/multipage-reactjs/static/js/main.0a995b08.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.299ee67a.css",
+    "static/js/main.0a995b08.js"
+  ]
+}
