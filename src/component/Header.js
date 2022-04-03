@@ -2,6 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import { Nav, Navbar} from 'react-bootstrap';
 import '../style.css';
+import { Link } from "react-router-dom";
 
 
 const Navb = () => {
@@ -14,13 +15,13 @@ return (
 		<Navbar.Toggle aria-controls="basic-navbar-nav" data-bs-target="#navbarScroll" />
 		<Navbar.Collapse  id="basic-navbar-nav"> 
 		<Nav>  
-		<Nav.Link href="/">
+		<Nav.Link as={Link} to="/">
 		<span className="navItem">Home</span>
 		</Nav.Link>
-		<Nav.Link href="/gallery" >
+		<Nav.Link as={Link} to="/gallery" >
 		<span className="navItem">Gallery</span>
 		</Nav.Link>
-		<Nav.Link href="/about" >
+		<Nav.Link as={Link} to="/about" >
 		<span className="navItem">About</span>
 		</Nav.Link>
 		</Nav>
