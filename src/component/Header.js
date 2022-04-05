@@ -11,7 +11,7 @@ return (
 	<>
 	
 	<Navbar  collapseOnSelect expand="lg" bg="dark" variant="dark">
-	<Navbar.Brand href="#home" ><h1>My Adventures</h1></Navbar.Brand>
+	<Navbar.Brand href="#home" > <span className="navItem" >My Adventures</span></Navbar.Brand>
 		<Navbar.Toggle aria-controls="basic-navbar-nav" data-bs-target="#navbarScroll" />
 		<Navbar.Collapse  id="basic-navbar-nav"> 
 		<Nav>  

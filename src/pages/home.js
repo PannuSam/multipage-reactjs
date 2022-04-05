@@ -3,7 +3,7 @@ import '../style.css';
  
 function Home (){
     return <div class="bgimg">
-        <h2>Welcome to My Adventures!</h2>
+        <h1>Welcome to My Adventures!</h1>
     </div>
 }
  
